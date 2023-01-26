@@ -26,7 +26,7 @@ jobs:
       uses: docker/metadata-action@v4
       with:
         # images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-        images: undancer/ddrecorder
+        images: undancer/shuttle
         tags: |
           # set latest tag for default branch
           type=raw,value=latest,enable={{is_default_branch}}
