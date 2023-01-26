@@ -2,7 +2,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 source 'https://rubygems.org'
 
-ruby '2.4.6'
+ruby '2.6.0'
 
 # FRAMEWORK
 gem 'rails', '4.2.10'
